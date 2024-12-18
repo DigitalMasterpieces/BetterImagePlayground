@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		01B467022D131B1D007BCF7C /* BetterImagePlayground in Frameworks */ = {isa = PBXBuildFile; productRef = 01B467012D131B1D007BCF7C /* BetterImagePlayground */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		01B466CE2D1317CD007BCF7C /* BetterImagePlaygroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterImagePlaygroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B467022D131B1D007BCF7C /* BetterImagePlayground in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +77,7 @@
 			);
 			name = BetterImagePlaygroundDemo;
 			packageProductDependencies = (
+				01B467012D131B1D007BCF7C /* BetterImagePlayground */,
 			);
 			productName = BetterImagePlaygroundDemo;
 			productReference = 01B466CE2D1317CD007BCF7C /* BetterImagePlaygroundDemo.app */;
@@ -101,6 +107,9 @@
 			);
 			mainGroup = 01B466C52D1317CD007BCF7C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				01B467002D131B1D007BCF7C /* XCLocalSwiftPackageReference "../" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 01B466CF2D1317CD007BCF7C /* Products */;
 			projectDirPath = "";
@@ -352,6 +361,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		01B467002D131B1D007BCF7C /* XCLocalSwiftPackageReference "../" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01B467012D131B1D007BCF7C /* BetterImagePlayground */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BetterImagePlayground;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01B466C62D1317CD007BCF7C /* Project object */;
 }
