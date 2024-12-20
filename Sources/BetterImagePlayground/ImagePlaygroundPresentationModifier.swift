@@ -1,6 +1,9 @@
 import SwiftUI
 
 
+/// The view modifier that does the presentation and sizing changes to the Image Playground.
+///
+/// The actual changes depend on the target platform and in case of Catalyst also on the chosen idiom.
 @available(iOS 18.2, macOS 15.2, *)
 @available(visionOS, unavailable)
 @available(watchOS, unavailable)
