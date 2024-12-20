@@ -21,7 +21,7 @@ public extension View {
     @MainActor func betterImagePlaygroundSheet(isPresented: Binding<Bool>, concepts: [ImagePlaygroundConcept] = [], sourceImage: UIImage? = nil, onCompletion: @escaping (URL) -> Void, onCancellation: (() -> Void)? = nil) -> some View {
         self.sheet(isPresented: isPresented) {
             ImagePlayground(isPresented: isPresented, concepts: concepts, sourceImage: sourceImage, onCompletion: onCompletion, onCancellation: onCancellation)
-                .presentationSizing(.fitted)
+                .modifier(ImagePlaygroundPresentationModifier())
         }
     }
 
@@ -83,7 +83,7 @@ public extension View {
     @MainActor func betterImagePlaygroundSheet(isPresented: Binding<Bool>, concepts: [ImagePlaygroundConcept] = [], sourceImage: NSImage? = nil, onCompletion: @escaping (URL) -> Void, onCancellation: (() -> Void)? = nil) -> some View {
         self.sheet(isPresented: isPresented) {
             ImagePlayground(isPresented: isPresented, concepts: concepts, sourceImage: sourceImage, onCompletion: onCompletion, onCancellation: onCancellation)
-                .presentationSizing(.fitted)
+                .modifier(ImagePlaygroundPresentationModifier())
         }
     }
 
