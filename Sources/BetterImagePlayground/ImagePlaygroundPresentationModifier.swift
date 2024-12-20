@@ -1,6 +1,10 @@
 import SwiftUI
 
 
+@available(iOS 18.2, macOS 15.2, *)
+@available(visionOS, unavailable)
+@available(watchOS, unavailable)
+@available(tvOS, unavailable)
 struct ImagePlaygroundPresentationModifier: ViewModifier {
 
 #if targetEnvironment(macCatalyst)
