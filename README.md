@@ -1,5 +1,8 @@
 # A Better Image Playground for SwiftUI
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FDigitalMasterpieces%2FBetterImagePlayground%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/DigitalMasterpieces/BetterImagePlayground)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FDigitalMasterpieces%2FBetterImagePlayground%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/DigitalMasterpieces/BetterImagePlayground)
+
 This package provides view modifiers for presenting an Image Playground in SwiftUI.
 It's similar to the default `imagePlaygroundSheet(...)` modifier, but the presented Image Playground has much better presentation behavior and size.
 See below for comparison screenshots.
